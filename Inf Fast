@@ -1,5 +1,3 @@
-script_key = "6338EB3900858B9CCC0738BB864F1615"
-
 _G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
         ["Auto Perfect"] = false,
@@ -44,15 +42,15 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Astral Rod",
     },
     ["WebHook"] = {
-        ["Link Webhook"] = "https://discord.com/api/webhooks/1449318969763692634/6-po-EjcK1rm-Y1AAZrRth7-H611Wxfge1fWsalzVg5zeSCFMCwsRgXuoDzGExM3m_Cm",
-        ["Auto Sending"] = true,
+        ["Link Webhook"] = "",
+        ["Auto Sending"] = false,
         ["Category"] = {"Secret"},
-        ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1449318969763692634/6-po-EjcK1rm-Y1AAZrRth7-H611Wxfge1fWsalzVg5zeSCFMCwsRgXuoDzGExM3m_Cm",
+        ["Link Webhook Quest Complete"] = "",
     },
     ["Weather"] = {
-        ["Auto Buying"] = true,
+        ["Auto Buying"] = false,
         ["Minimum Rod"] = "Astral Rod",
-        ["Weather List"] = {"Wind", "Cloudy", "Storm"},
+        ["Weather List"] = {"Wind"},
     },
     ["Potions"] = {
         ["Auto Use"] = true,
@@ -62,51 +60,51 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
-            ["Mutation Totem"] = 5,
-       
+            ["Luck Totem"] = 5,
+            "Mutation Totem",
+            "Shiny Totem"
         },
     },
     ["Event"] = {
-        ["Start Farm"] = false,
+        ["Start Farm"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
             "Megalodon Hunt",
             "Ghost Shark Hunt",
             "Shark Hunt",
-            ["Ancient Lochness Monster"] = false
+            ["Ancient Lochness Monster"] = true
         },
     },
     ["Enchant"] = {
         ["Auto Enchant"] = true,
-        ["Roll Enchant"] = false,
+        ["Roll Enchant"] = true,
         ["Evolved Roll Enchant"] = false,
         ["Enchant List"] = {"Reeler II", "SECRET Hunter", "Shark Hunter", "Mutation Hunter III", "Leprechaun II", "Mutation Hunter II", "Prismatic I"},
-        ["Second Enchant"] = true,
+        ["Second Enchant"] = false,
         ["Allowed Sacrifice"] = {"Frostborn Shark", "Cryoshade Glider"},
         ["Second Enchant List"] = {"Cursed I"},
         ["Minimum Rod"] = "Ghostfinn Rod",
     },
     ["Bait List"] = {
         ["Auto Buying"] = true,
-        ["Buy List"] = {"Aether Bait"},
+        ["Buy List"] = {"Midnight Bait", "Chroma Bait", "Corrupt Bait"},
         ["Endgame"] = "Singularity Bait",
     },
     ["Rod List"] = {
         ["Auto Buying"] = true,
-        ["Buy List"] = {"Ares Rod"},
+        ["Buy List"] = {"Grass Rod", "Midnight Rod", "Astral Rod"},
         ["Location Rods"] = {
-            ["Treasure Room"] = {"Element Rod", "Ghostfinn Rod"}
+            ["Fisherman Island"] = {"Starter Rod"},
+            ["Tropical Grove"] = {"Grass Rod", "Midnight Rod"}
         },
         ["Endgame"] = "Ghostfinn Rod",
     },
 
-    ["ExtremeFpsBoost"] = true,
-    ["UltimatePerformance"] = true,
-    ["Disable3DRender"] = true,
-    ["AutoRemovePlayer"] = true,
+    ["ExtremeFpsBoost"] = false,
+    ["UltimatePerformance"] = false,
+    ["Disable3DRender"] = false,
+    ["AutoRemovePlayer"] = false,
     ["AutoReconnect"] = false,
     ["HideGUI"] = false,
     ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
