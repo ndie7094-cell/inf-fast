@@ -66,13 +66,13 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
     ["Event"] = {
-        ["Start Farm"] = true,
+        ["Start Farm"] = false,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
             "Megalodon Hunt",
             "Ghost Shark Hunt",
             "Shark Hunt",
-            ["Ancient Lochness Monster"] = true
+            ["Ancient Lochness Monster"] = false
         },
     },
     ["Enchant"] = {
@@ -96,6 +96,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Location Rods"] = {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Tropical Grove"] = {"Grass Rod", "Midnight Rod"}
+            [""] = {"Ghostfinn Rod"}
         },
         ["Endgame"] = "Ghostfinn Rod",
     },
