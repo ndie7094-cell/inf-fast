@@ -95,10 +95,9 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Buy List"] = {"Grass Rod", "Midnight Rod", "Astral Rod"},
         ["Location Rods"] = {
             ["Fisherman Island"] = {"Starter Rod"},
-            ["Tropical Grove"] = {"Grass Rod", "Midnight Rod"}
-            ["Tropical Grove"] = {"Ghostfinn Rod"}, 
+            ["Tropical Grove"] = {"Grass Rod", "Midnight Rod", "Ghostfinn Rod"}
         },
-        ["Endgame"] = "Ghostfinn Rod",
+        ["Endgame"] = "",
     },
 
     ["ExtremeFpsBoost"] = false,
